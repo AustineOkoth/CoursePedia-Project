@@ -1,0 +1,98 @@
+:root{
+    background-image: url(./images2.jfif);
+background-size:cover;
+}
+#container{
+
+    border: 3px solid black;
+    background-image: url(./images2.jfif);
+    position: relative;
+    width: max-content;
+    height: fit-content;
+   margin-left: auto;
+   margin-right: auto;
+    border-radius: 20px;
+}
+#title-name{
+    color:white;
+    background-blend-mode: hard-light;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /*border-bottom: 2px solid black;*/
+   /* background-color: rgb(73, 51, 75);*/
+   background-color: rgb(69, 47, 71);
+
+    text-align: center;
+    top:0;
+    margin-top: -21px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+h3{
+    text-align: center;
+    font-family: serif;
+}
+li,p{
+    text-align: center;
+    list-style-type: none;
+    font-size: 15px;
+    font-family: sans-serif;
+
+}
+#form-data{
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+width: 400px;
+height: 200px;
+background-color: rgb(33, 19, 34);
+opacity: 0.9;
+border-radius: 10px;
+position: relative;
+}
+#login-btn{
+    align-items: center;
+    margin-left: 10%;
+    width: 80px;
+    height: 40px;
+    border-radius: 12px;
+    font-weight: bolder;
+}
+
+#login-btn:hover{
+    background-color:black;
+    opacity: 0.9;
+    color: white;
+
+}
+
+#footer{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.social-handle{
+margin-left: auto;
+margin-right: auto;
+
+}
+svg:hover{
+color: white;
+}
+.input-field{
+    width: 40px;
+}
+#contact-info{
+    display: flex;
+    flex-direction: row;
+}
+h5{
+    align-content: center;
+}
+hr{
+  border: 2px dotted black;  
+}

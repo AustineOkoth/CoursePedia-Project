@@ -1,0 +1,180 @@
+:root{
+    background-color:rgb(235, 235, 211);
+}
+
+
+#container{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: auto;
+}
+#title-name{
+    color:black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    font-family:serif;
+    font-size: larger;
+    margin-top: -21px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+#top-navbar{
+    margin-top: -21px;
+    background-color:black;
+}
+#navbar-details{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+#register-btn{
+    height: 40px;
+    position: absolute;
+    right: 0;
+    border-radius: 10px;
+}
+#register-btn:hover{
+    background-color:black;
+    color:white;
+}
+
+.register-btn-conditions{
+    background-color:rgb(235, 235, 211);
+    border: 1px solid black;
+    width: fit-content;
+    position: absolute;
+    right: 0;
+    border-radius: 5px;
+    transition:0.5s ease-in-out;
+}
+.cancel-registration,.proceed-registration{
+    visibility:visible;
+    
+}
+
+a{
+    color:black;
+    font-weight: bold;
+    font: italic;
+    text-decoration: none;
+}
+#reg-no,#current-course,#cut-off,#student-name{
+    margin-left: auto;
+    font-weight: bold;
+}
+#navbar-unordered-list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-align: center;
+    align-items: center;
+    width:80%;
+}
+
+
+/* END OF NAVBAR STYLIYING */
+
+/*
+REMOVING THE ROW DIRECTION DISPLAY PRESENT 
+
+#intro-objective-employment-duration{
+    display: flex;
+    flex-direction: row;
+}
+*/
+
+/*
+
+REMOVING THIS PROPERTIES 
+
+#introduction,#course-duration,#employment-venue,#course-objective{
+    width: 25%;
+    background-color: whitesmoke;
+    margin-right: 20px;
+    border-radius: 15px;
+   
+}
+*/
+
+
+/*
+#first-and-second-year,#third-and-fourth-year{
+display: flex;
+flex-direction: row;
+
+}
+*/
+#first-year{
+    
+    margin-right: 80px;
+    width: fit-content;
+    border-radius: 15px;
+}
+#second-year{
+
+    width: fit-content;
+    border-radius: 15px;
+}
+#third-year{
+    
+    width: fit-content;
+    margin-right: 80px;
+    border-radius: 15px;
+}
+#fourth-year{
+    
+    width: fit-content;
+    border-radius: 15px;
+ 
+}
+#course-header{
+    font-size: 18px;
+    text-align: center;
+}
+#introduction-header,#course-objective-header,#course-duration-header,#employment-venue-header{
+    text-align: center;
+    font-size: 18px;
+    font-family: serif;
+    text-transform: capitalize;
+}
+li{
+    color: indianred;
+}
+
+ol{
+    text-align: left;
+}
+p{
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+#footer{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.social-handle{
+margin-left: auto;
+margin-right: auto;
+
+}
+svg:hover{
+color:indianred;
+}
+
+#upward-button{
+background-color: blue;
+position: absolute;
+
+}
+
+
+
